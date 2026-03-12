@@ -14,7 +14,17 @@ export default function HomePage() {
         Это учебное приложение для работы с API Кинопоиска. Здесь вы можете:
       </Typography>
 
-    
+      <List>
+        <ListItem>
+          <ListItemText primary="🔍 Искать фильмы по названию или ID" />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="🎬 Просматривать список фильмов" />
+        </ListItem>
+        <ListItem>
+          <ListItemText primary="⭐ Сохранять любимые фильмы в Избранное" />
+        </ListItem>
+      </List>
 
       <Typography mt={4} align="center" color="text.secondary">
         Начните с раздела «Фильмы» или воспользуйтесь поиском.
